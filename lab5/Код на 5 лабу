@@ -1,0 +1,208 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+
+\definecolor{darkblue}{RGB}{10,20,50}
+\definecolor{accentblue}{RGB}{30,100,180}
+\definecolor{lightgray}{RGB}{200,210,220}
+
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{block title}{fg=white,bg=accentblue}
+\setbeamercolor{block body}{fg=white,bg=darkblue}
+\setbeamercolor{itemize item}{fg=accentblue}
+\setbeamercolor{enumerate item}{fg=accentblue}
+\setbeamercolor{alerted text}{fg=accentblue}
+
+\setbeamertemplate{frametitle}{%
+    \vskip0.5cm
+    \hspace{0.5cm}
+    {\usebeamerfont{frametitle}\insertframetitle}
+    \par\vskip0.3cm
+    \hspace{0.5cm}
+    {\color{accentblue}\rule{4cm}{2pt}}
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{headline}{}
+
+\setbeamertemplate{background}{
+    \begin{tikzpicture}
+    \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+    \shade[top color=darkblue, bottom color=black] (0,0) rectangle (\the\paperwidth,\the\paperheight);
+    \draw[accentblue, opacity=0.15, line width=2pt] (0,0) circle (12cm);
+    \draw[lightgray, opacity=0.05, line width=1pt] (\the\paperwidth,\the\paperheight) circle (15cm);
+    \end{tikzpicture}
+}
+
+\title{История Орловского государственного\\ университета имени И.С. Тургенева}
+\author{Хахамов Андрей 51ПИфи}
+\institute{Орловский государственный университет имени И. С. Тургенева}
+\date{29.05.2026}
+
+\begin{document}
+
+\begin{frame}
+    \begin{center}
+        \vspace{2cm}
+        {\Huge \textbf{История ОГУ им. Тургенева}}
+        \vspace{1cm}
+        \par
+        {\color{accentblue}\rule{6cm}{3pt}}
+        \vspace{1.5cm}
+        \par
+        {\large Хахамов Андрей 51ПИфи}
+        \vspace{0.3cm}
+        \par
+        {\large Орловский государственный университет}
+        \vspace{0.5cm}
+        \par
+        {\normalsize 29.05.2026}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Основные даты истории}
+Университет прошёл долгий путь развития:
+
+\vspace{0.3cm}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{itemize}
+\item \textbf{1919} -- создан первый Орловский университет
+\item \textbf{1931} -- основан индустриально-педагогический институт
+\item \textbf{1996} -- получил статус классического университета
+\item \textbf{2014} -- присвоено имя И.С. Тургенева
+\item \textbf{2016} -- стал опорным вузом России
+\end{itemize}
+\column{0.5\textwidth}
+\centering
+\includegraphics[width=0.8\textwidth]{ogu.jpg}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Как менялось название}
+За свою историю вуз неоднократно менял название:
+
+\vspace{0.3cm}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Год} & \textbf{Название} \\
+\hline
+1919 & Пролетарский университет \\
+\hline
+1931 & Индустриально-педагогический институт \\
+\hline
+1932 & Педагогический институт \\
+\hline
+1994 & Педагогический университет \\
+\hline
+1996 & Классический университет \\
+\hline
+2016 & Опорный университет \\
+\hline
+\end{tabular}
+\end{table}
+\end{frame}
+
+\begin{frame}{Университет в годы войны}
+Великая Отечественная война серьёзно повлияла на жизнь вуза:
+
+\vspace{0.3cm}
+\begin{itemize}
+\item \textbf{1941} -- около 200 студентов и преподавателей ушли на фронт
+\item \textbf{август 1941} -- эвакуация института в город Бирск (Башкирия)
+\item \textbf{1943} -- возвращение в освобождённый Орёл
+\item Занятия шли в 3 смены
+\end{itemize}
+
+\vspace{0.3cm}
+\begin{block}{Итог}
+Несмотря на войну, подготовка специалистов не прекращалась.
+\end{block}
+\end{frame}
+
+\begin{frame}{Статус классического университета}
+\begin{block}{Ключевое событие: 1996 год}
+Орловский государственный педагогический институт (ОГПИ) получает статус \textbf{классического университета}.
+\end{block}
+
+\begin{alertblock}{Расширение структуры}
+В состав ОГУ вошли новые подразделения:
+\begin{itemize}
+\item Медицинский институт (1999 год)
+\item Политехнический институт
+\item Естественно-научные факультеты
+\end{itemize}
+\end{alertblock}
+\end{frame}
+
+\begin{frame}{ОГУ сегодня: Опорный университет России}
+\begin{columns}
+\column{0.5\textwidth}
+\textbf{Ключевые вехи:}
+\begin{itemize}
+\item \textbf{2014} -- присвоено имя И.С. Тургенева
+\item \textbf{2015} -- объединение с ПГУ
+\item \textbf{2016} -- статус «Опорный университет»
+\end{itemize}
+\column{0.5\textwidth}
+\textbf{География:}
+\begin{itemize}
+\item Студенты из 55 стран мира
+\item Филиалы в Ливнах, Мценске и Карачеве
+\end{itemize}
+\end{columns}
+
+\vspace{0.5cm}
+\centering
+\textit{«Вуз, соединяя образование с наукой, решает глобальную задачу»}
+\end{frame}
+
+\begin{frame}{ОГУ в цифрах}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Показатель деятельности} & \textbf{Значение} \\
+\hline
+Общее количество студентов & 25 000 человек \\
+\hline
+Профессорско-преподавательский состав & 1 000 преподавателей \\
+\hline
+Количество направлений подготовки & более 300 \\
+\hline
+Количество институтов и факультетов & 24 \\
+\hline
+Научная библиотека & более 1 млн. единиц \\
+\hline
+\end{tabular}
+\caption{Основные показатели ОГУ им. И.С. Тургенева}
+\end{table}
+\end{frame}
+
+\begin{frame}{Источники информации}
+\begin{itemize}
+\item Официальный сайт ОГУ им. И.С. Тургенева
+\item Материалы Википедии
+\item Сайт физико-математического факультета (phys-math.ru)
+\item Вести-Орел: Орловский Государственный университет отметил 85-летие
+\item Российская газета: Орловский университет отмечает 100 лет со дня основания
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\vspace{2.5cm}
+{\Huge Спасибо за внимание!}
+\end{center}
+\end{frame}
+
+\end{document}
